@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "saint_and_spirited:holy_water"
+    },
+    "title": {
+      "translate": "advancements.arm_1.title"
+    },
+    "description": {
+      "translate": "advancements.arm_1.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "arm_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "saint_and_spirited:holy_water",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "saint_and_spirited:start"
+}

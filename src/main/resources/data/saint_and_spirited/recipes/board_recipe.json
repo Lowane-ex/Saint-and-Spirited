@@ -1,0 +1,16 @@
+{
+  "group": "saint_and_spirited",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "saint_and_spirited:board",
+    "count": 8
+  }
+}

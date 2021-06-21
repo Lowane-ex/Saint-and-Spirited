@@ -1,0 +1,384 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "HolyRelics",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "holy_relics",
+      "path": "~/Items"
+    },
+    {
+      "name": "HolyRelicsItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "holy_relics_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "SaintandSpirited",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saintand_spirited"
+    },
+    {
+      "name": "Holyrelic2",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "holyrelic_2",
+      "path": "~/Items"
+    },
+    {
+      "name": "Holyrelic3",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "holyrelic_3",
+      "path": "~/Items"
+    },
+    {
+      "name": "Holyrelic4",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "holyrelic_4",
+      "path": "~/Items"
+    },
+    {
+      "name": "SaintandSpiritedAdvancement",
+      "type": "achievement",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saintand_spirited_advancement",
+      "path": "~/Advancement"
+    },
+    {
+      "name": "Legofsavior",
+      "type": "achievement",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "legofsavior",
+      "path": "~/Advancement"
+    },
+    {
+      "name": "ArmofSavior",
+      "type": "achievement",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armof_savior",
+      "path": "~/Advancement"
+    },
+    {
+      "name": "Start",
+      "type": "achievement",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "start",
+      "path": "~/Advancement"
+    },
+    {
+      "name": "BodyofSavior",
+      "type": "achievement",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bodyof_savior",
+      "path": "~/Advancement"
+    },
+    {
+      "name": "Board",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "board",
+      "path": "~/Items"
+    },
+    {
+      "name": "BoardFuel",
+      "type": "fuel",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "board_fuel"
+    },
+    {
+      "name": "WoodenCross",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wooden_cross",
+      "path": "~/Items"
+    },
+    {
+      "name": "WoodenCrossItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wooden_cross_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "WoodenCrossRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wooden_cross_recipe",
+      "path": "~/Craft"
+    },
+    {
+      "name": "BoiledWaterFoodEaten",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boiled_water_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BoiledWater",
+      "type": "food",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boiled_water",
+      "path": "~/Items"
+    },
+    {
+      "name": "HolyWaterFoodEaten",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "holy_water_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "HolyWater",
+      "type": "food",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "holy_water",
+      "path": "~/Items"
+    },
+    {
+      "name": "BoilingWater",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boiling_water",
+      "path": "~/Craft"
+    },
+    {
+      "name": "SaintWaterRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saint_water_recipe",
+      "path": "~/Craft"
+    },
+    {
+      "name": "BoardRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "board_recipe",
+      "path": "~/Craft"
+    },
+    {
+      "name": "BoardRecipe2",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "board_recipe_2",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Arm1",
+      "type": "achievement",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arm_1",
+      "path": "~/Advancement"
+    },
+    {
+      "name": "WoodenCrossAdvancement",
+      "type": "achievement",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wooden_cross_advancement",
+      "path": "~/Advancement"
+    },
+    {
+      "name": "PiligrimsRobe",
+      "type": "armor",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "piligrims_robe",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Items"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.saint_and_spirited.wooden_cross": "Wooden Cross",
+      "item.saint_and_spirited.piligrims_robe_boots": "Piligrim\u0027s Shoes",
+      "advancements.arm_1.descr": "Refreshing!",
+      "advancements.saintand_spirited_advancement.descr": "The good one",
+      "advancements.legofsavior.title": "Leg of Savior",
+      "advancements.wooden_cross_advancement.title": "Wooden Cross",
+      "item.saint_and_spirited.holyrelic_2": "Holy Relic",
+      "item.saint_and_spirited.holy_relics": "Holy Relic",
+      "item.saint_and_spirited.holyrelic_4": "Holy Relic",
+      "item.saint_and_spirited.holyrelic_3": "Holy Relic",
+      "item.saint_and_spirited.piligrims_robe_helmet": "Piligrim\u0027s Hood",
+      "advancements.bodyof_savior.title": "Body of Savior",
+      "advancements.bodyof_savior.descr": "The heart is the strongest muscle",
+      "item.saint_and_spirited.holy_water": "Holy Water",
+      "advancements.wooden_cross_advancement.descr": "Last Chance",
+      "item.saint_and_spirited.piligrims_robe_leggings": "Piligrim\u0027s Pants",
+      "advancements.legofsavior.descr": "Help is not waiting",
+      "advancements.armof_savior.title": "Arm of Savior",
+      "advancements.start.title": "Saint Path",
+      "advancements.saintand_spirited_advancement.title": "Head of Savior",
+      "item.saint_and_spirited.board": "Board",
+      "itemGroup.tabsaintand_spirited": "Saintand Spirited",
+      "item.saint_and_spirited.boiled_water": "Boiled Water",
+      "advancements.start.descr": "The road to paradise is paved with good deeds",
+      "advancements.armof_savior.descr": "Will lend a helping hand",
+      "advancements.arm_1.title": "Holy Water!",
+      "item.saint_and_spirited.piligrims_robe_chestplate": "Piligrim\u0027s Robe"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": []
+      },
+      {
+        "name": "Craft",
+        "children": []
+      },
+      {
+        "name": "Advancement",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "saint_and_spirited",
+    "modName": "Saint and Spirited",
+    "version": "1.0.0",
+    "author": "mrbre, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.saintandspirited",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

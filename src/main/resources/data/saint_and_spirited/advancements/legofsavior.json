@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "saint_and_spirited:holy_relics"
+    },
+    "title": {
+      "translate": "advancements.legofsavior.title"
+    },
+    "description": {
+      "translate": "advancements.legofsavior.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "legofsavior": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "saint_and_spirited:holy_relics",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "saint_and_spirited:start"
+}

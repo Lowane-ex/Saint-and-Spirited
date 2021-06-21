@@ -1,0 +1,42 @@
+{
+  "group": "saint_and_spirited",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "saint_and_spirited:board"
+    },
+    "1": {
+      "item": "saint_and_spirited:board"
+    },
+    "2": {
+      "item": "saint_and_spirited:board"
+    },
+    "3": {
+      "item": "saint_and_spirited:board"
+    },
+    "4": {
+      "item": "saint_and_spirited:board"
+    },
+    "5": {
+      "item": "saint_and_spirited:board"
+    },
+    "6": {
+      "item": "saint_and_spirited:board"
+    },
+    "7": {
+      "item": "saint_and_spirited:board"
+    },
+    "8": {
+      "item": "saint_and_spirited:board"
+    }
+  },
+  "result": {
+    "item": "minecraft:oak_planks",
+    "count": 1
+  }
+}
